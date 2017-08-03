@@ -1,0 +1,232 @@
+/* ************************************************************
+******************* Student Registration **********************
+*************************************************************** */
+h3{background-color:#5f2273; color: #5f2273}
+
+h4{background-color:#e2e6e7; color: #000000;text-align: center;font-weight: 400;padding: 6px}
+
+.logo_title1{color:#262a73;} 
+
+.logo_title2{color:#89c2fb;}
+
+h6{font-size: 9px}
+
+.logo_admin{font-size:18px;color:#800080}
+
+.main{  overflow: hidden;}
+
+
+.inputform_left { margin-left:12px;float: left; width: 500px; border: 1px solid #4b1c5b; border-radius: 10px; padding: 10px; }
+
+.inputform_left table tr td input, textarea, select { width: 230px; border: 1px solid; border-radius: 4px; }
+
+.inputform{margin-right:12px;float: left; width: 400px; border: 1px solid #4b1c5b; border-radius: 10px; padding: 10px; }
+
+.inputform table tr td input, textarea, select { width: 230px; border: 1px solid; border-radius: 4px; }
+
+#gender1, #gender2 { width: 25px; }
+
+#submit { margin-top: 12px; margin-left: 91px; width: 100px; }
+
+#reset { width: 100px; }
+
+.design { background-color: #5f2273; color: white; padding-left: 100px; }
+
+#submit , #reset{ border:none; padding: 8px; text-transform: uppercase; background-color: #337ab7; color: #daf1f2; font-weight: 700; text-decoration: none; }
+
+#submit:HOVER { background-color: #185D98;color: #F7FFFF; }
+
+#reset:HOVER { color: #FFEB3B; background-color: #0A85BD; }
+
+.Input_height{height:29px;}
+
+.inputform_left_extra .Input_height_border_display{height:25px; border:none; !important}
+
+.inputform_left_extra .Textarea_border_display{ border:none; !important}
+
+.footer{ padding-bottom:6px;width:100%; height:40px; background-color:#808080; }
+
+.footer p{    padding-top: 10px;;text-align: center;}
+
+.footer p a{text-decoration: none;}
+
+.footer p a:hover{color:white}
+
+/* ************************************************************
+*********************** Admin Deshboard **********************
+*************************************************************** */
+
+.link_form .link a{padding:8px;  color:black ; text-decoration: none}
+
+.link a:HOVER{text-decoration: undeline}
+
+.inputform_left_admin {margin-left:12px;float: left; width: 650px; border: 1px solid #4b1c5b; border-radius: 10px; padding: 10px;}
+
+.inputform_left_admin table tr th{text-align: left}
+
+/**********************************************************************/
+/****************** Set Update Delete Quary Quary ************************************/
+/********************************************************************/
+
+.inputform_left_extra{
+	
+	margin-left:12px;
+	float: left; 
+	width: 500px; 
+	border: 1px solid #4b1c5b; 
+	border-radius: 10px; 
+	padding-bottom: 21px;
+}
+
+.inputform_left_extra table textarea{ resize: none;}
+
+.inputform_left_extra table tr td input, textarea, select {width: 119%; border: 1px solid; border-radius: 4px; border-color: #c0c0c0; }
+
+.inputform_left_extra table tr td #radio_set {height:15px; width:15px}
+
+.inputform_left_extra .addmore{margin-left:32px;width: 122px;  height: 30px; outline:none; border-radius:13px; ;background-image: url(../images/addmore.png); color: whitesmoke;!important}
+.inputform_left_extra .button {
+	margin-left:32px;
+  display: inline-block;
+  width: 132px;
+  height: 28px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #337AB7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #777575;!important
+}
+
+.inputform_left_extra .button:hover {background-color: #025eb9;!important}
+
+.inputform_left_extra .button:active {
+  background-color: #025b9d;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);!important
+}
+.inputform_left_extra .removeElement{margin-left:12px;width: 122px;  height: 30px; outline:none; border-radius:13px; ;background-image: url(../images/removeElement.png); color: whitesmoke;!important}
+
+.inputform_left_extra #submit{width: 90%; background-color: #337ab7; color:#daf1f2}
+
+.inputform_left_extra #submit:hover{background-color: #425eca; color:#f7f5f7 ; text-shadow: 0 0 1px #ffffff}
+
+.inputform_middle_extra {margin:0 auto; width: 80%; border: 1px solid #4b1c5b; 	border-radius: 10px; padding-bottom: 32px}
+
+
+.inputform_middle_extra #submit{width: 90%; background-color: #337ab7; color:#daf1f2}
+
+
+
+/* *****************************************************************
+*********************** HI Update table  **********************************
+**************************************************************** */
+
+
+.inputform_question_table table{margin:0 auto; margin-top:21px;border-collapse: collapse;max-width: 95%}
+
+.inputform_question_table table th{border-radius:1px}
+	
+.inputform_question_table table th{padding: 6px 23px} 
+
+.inputform_question_table table td{padding: 6px 0 } 
+
+.inputform_question_table .table_header {background-color: #5f2273; color:#ffffff; font-size: 14px;font-weight: 300  }
+
+.inputform_question_table .sub_table_header {background-color: #b33cbe; color:#faf9f9; font-size: 11px;font-weight: 300  }
+
+.inputform_question_table .Ex_question{width: 31% ;padding-right: 32px}
+
+.inputform_question_table .Ex_question_ans{text-align: center}
+
+.inputform_question_table table tr td #update_question{height: 15px ;width: 15px}
+
+.inputform_question_table .DeleteQues{ margin-top: 42px;margin-bottom: 32px}
+
+.DeleteQues #UpdateQuestion {border:none; border-radius:2px ;90%; background-color: #337ab7; color:#daf1f2 ;padding: 6px 32px}
+
+.DeleteQues #DeleteQuestion {border:none; border-radius:2px ;90%; background-color: #337ab7; color:#daf1f2 ;padding: 6px 32px}
+
+/* *********************************************************************/
+/****************** SEARCH ************************************/
+/******************************************************************* */
+
+.inputform_Search h2{padding:12px 0;word-spacing: 8px;letter-spacing: 1px;}
+
+.inputform_Search {margin:0 auto; width: 80%; border: 1px solid #4b1c5b; 	border-radius: 10px; padding-bottom: 42px}
+
+.inputform_Search .submain{max-width: 80%;padding-bottom: 29px}
+
+.submain .subInputDiv .Input-Search{height: 34px; width: 150%; outline: none; border: 1px solid #579CD8; border-radius: 3px;}
+
+.submain .subInputDiv .Input_Select{height: 34px; width: 150%; outline: none;border: 1px solid #579CD8; border-radius: 2px;}
+
+.inputform_Search .submain .subInputDiv table{margin: 0 auto;}
+
+.inputform_Search .submain .subInputDiv table tr{border-collapse:separate;  border-spacing:5em;}
+
+.inputform_Search .submain .subInputDiv #submit{margin-top: 27px;outline:none ;margin-left: 33px; padding: 11px; width: 114%; background-color: #337ab7; color: #daf1f2; border-radius: 6px; }
+
+.inputform_Search .submain .subInputDiv #submit:hover{background-color: #316FA5;color: #F7FFFF;!important}
+
+.form_Search{width: 93%; margin-left: 35px; margin-top: 40px; border: 1px solid #4b1c5b; border-radius: 11px; padding: 11px 11px 45px 11px; !important}
+
+.inputform_Search .form_Search .updateQuestion{margin: 34px 0px -12px 352px; padding: 8px 26px; border-radius: 6px; outline: none; background-color: #337AB7;color: white;!important}
+
+.inputform_Search .form_Search .trSetId {width: 87px; color:#ffffff; padding: 6px 0; background-color: #292929/* #8801d1 */ ;!important}
+
+.inputform_Search .form_Search .trSetSubject{padding: 6px 0; color:#ffffff ;background-color: #333 /* #be01e7 */ ;}
+
+.inputform_Search .form_Search .trSetSub{padding: 6px 0; color:#ffffff; background-color: #555 /* #d603c0 */;}
+
+.inputform_Search .form_Search .trSetCheckBox{width: 87px; color:#f7f7f7; padding: 6px 0; background-color: #676268;!important}
+
+/* *********************************************************************/
+/****************** Input Successs ************************************/
+/******************************************************************* */
+
+.main .inputform_left_alert {float: left; width: 500px; padding: 10px; margin-top: 84px; margin-left: 84px;}
+
+.inputform_left_alert p{color:green;font-weight: 600;}
+
+input::selection {
+  /* Safari */
+  outline: 2px solid #b5b5b5;
+  border: 2px solid #b5b5b5;
+}
+input::-moz-selection {
+  /* Firefox */
+  outline: 2px solid #b5b5b5;
+  border: 2px solid #b5b5b5;
+}
+
+/* max-width: 91%; */
+/* *********************************************************************/
+/****************** scrollbar ************************************/
+/******************************************************************* */
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background-color: #F5F5F5; 
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	border-radius: 10px;
+	background-color: #F5F5F5 ;  
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #800080; 
+}
+
+
+
+

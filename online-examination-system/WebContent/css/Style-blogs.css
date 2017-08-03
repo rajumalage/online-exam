@@ -1,0 +1,210 @@
+body {
+	background-color:#F2F5F9;
+	font-family: 'Quando';
+	font-size: 12px;
+	color: #000000;
+	overflow-x: hidden;
+	height: 100%;
+}
+h3{
+	font-size: 20px;
+    padding: 10px 16px;
+    background-color: #920874;
+    color: white;
+}
+.QuesShowTag
+{
+	display: inline-block;
+    vertical-align: middle;
+    padding: 6px;
+    text-align:left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-size:16px;
+    font-weight: bold;
+    color:#000084;
+}
+.QuesShowName
+{
+	display: inline-block;
+    vertical-align: middle;
+    padding: 6px;
+    text-align:left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-size:14px;
+    color:#000
+ 
+}
+
+#showQuestionDetails
+{	
+	margin: 0;
+    border-collapse: collapse;
+    width: 45%;
+    border: none;
+}
+
+#showQuestionDetails td{
+	border-top: none;
+	border-right: none;
+    border-left: none;
+    border-bottom: none;
+    padding:7px 0;
+}
+
+.showQuestionDetails textarea{
+	background-color: rgba(196, 216, 245, 0.03);
+	border:none;
+	outline:none;
+	resize: none;
+}
+
+--------------------- Show to Questions ------------------------
+.Quesweaper{
+	margin:0 auto;
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 67px;
+	overflow: hidden;
+}
+
+.QuesBody{
+	overflow: hidden;
+}
+
+.QuesDescTh{
+	height: 23px;
+    float: left;
+    width: 90%;
+    margin: 1px;
+    font-size: 18px;
+    padding:5px 15px;
+    overflow: hidden;
+    background-color: #8080ff;
+    background: #8000ff;
+	background: -moz-linear-gradient(center bottom, #95C7F5 0%, #2E85DE 70%) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(center bottom, #95C7F5 0%, #2E85DE 70%) repeat scroll 0 0;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #95C7F5), color-stop(0.7, #2E85DE));
+}
+.tableTh{
+	padding-right:35px;
+	float:left;
+	
+}
+#QuesDesc{
+	width: 912px;
+}
+
+.QuesBodyTD{
+	overflow:hidden;
+}
+.ShowQuesDesc{
+	overflow:auto;
+	height:300px;
+}
+.QuesSl{
+	font-size: 16px;
+    text-align: center;
+    padding: 5px 26px;
+}
+.Quesde
+{
+	font-size: 15px;
+    color: #2D2C2C;
+    padding: 8px 30px;
+}
+
+.Questh{
+	background-color:black;
+	color:#f4f4f4;
+    padding: 5px 26px;
+    font-size: 16px;
+    text-align: center;
+} 
+
+.ShowQuesDesc{
+	margin:0 auto;
+	margin-top:22px;
+	
+	width:912px
+}
+.ShowQuesDesc section {
+  position: relative;
+  border: 1px solid #ed87d9;
+  padding-top: 37px;
+  background: #FB922A;
+	background: -moz-linear-gradient(center bottom, #FB922A 0%, #D46B00 70%) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(center bottom, #FB922A 0%, #D46B00 70%) repeat scroll 0 0;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #FB922A), color-stop(0.7, #D46B00));
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#FB922A, endColorstr=#D46B00);
+}
+.ShowQuesDesc section.positioned {
+  position: absolute;
+  top:100px;
+  left:100px;
+  width:800px;
+  box-shadow: 0 0 15px #333;
+}
+.ShowQuesDesc .container {
+  overflow-y: auto;
+  height: 250px;
+}
+.ShowQuesDesc table {
+  border-spacing: 0;
+  width:100%;
+}
+.ShowQuesDesc td + td {
+  border-left:1px solid #F1B3E4;;
+}
+.ShowQuesDesc td, th {
+  border-bottom:1px solid #F1B3E4;;
+  background: #F0F0F1;
+  color: #000;
+  padding: 10px 25px;
+}
+.ShowQuesDesc th {
+  height: 0;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: transparent;
+  border: none;
+  white-space: nowrap;
+}
+.ShowQuesDesc th div{
+     position: absolute;
+    background: transparent;
+    color: #fff;
+    padding: 6px 19px;
+    font-size: 18px;
+    top: 0;
+    margin-left: -25px;
+    line-height: normal;
+    border-left: 1px solid #800;
+}
+.ShowQuesDesc th:first-child div{
+  border: none;
+}
+/* *********************************************************************/
+/****************** scrollbar ************************************/
+/******************************************************************* */
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background-color: #F5F5F5; 
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	border-radius: 10px;
+	background-color: #F5F5F5 ;  
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #0091d7; 
+}
+

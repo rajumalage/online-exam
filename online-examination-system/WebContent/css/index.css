@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'pt-sans';
+    src: url('fonts/ptc75f-webfont.eot');
+    src: url('fonts/ptc75f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ptc75f-webfont.woff') format('woff'),
+         url('fonts/ptc75f-webfont.ttf') format('truetype'),
+         url('fonts/ptc75f-webfont.svg#pt_sans_captionbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { margin: 0; padding: 0; outline: 0; }
+
+body, html { height: 100%; }
+
+body {
+	font-size: 12px;
+	line-height: 22px;
+	font-family: arial, sans-serif;
+	color: #828282;
+	background: /*url(images/body.png)*/ repeat 0 0;
+	min-width: 100%;
+}
+
+a { color: #72ae13; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+a.more { background: url(images/green-arr.png) no-repeat 0 5px; padding-left: 11px; color: #72ae13; text-decoration: underline; font-size: 12px; }
+a.more:hover { text-decoration: none;  }
+
+/*font-family: 'Coda', cursive;*/
+/*font-family: 'Jura', sans-serif;*/
+
+article, aside, details, footer, header, menu, nav, section { display: block; }
+input, textarea, select { font-size: 12px; font-family: arial, sans-serif; }
+textarea { overflow: auto; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+
+.shell { width: 980px; margin: 0 auto; }
+
+.header { background: url(images/header.png) repeat 0 0; }
+.header .shell { padding: 21px 32px 0; width: 918px; background: url(images/header-shell.png) no-repeat center 0; box-shadow: 0px -10px 9px rgba(0,0,0,0.7); -moz-box-shadow: 0px -10px 9px rgba(0,0,0,0.7); -webkit-box-shadow: 0px -10px 9px rgba(0,0,0,0.7); -o-box-shadow: 0px -3px 10px 9rgba(0,0,0,0.7) }
+.header-top { height: 72px;  }
+
+#logo { width: 142px; font-size: 0; line-height: 0; float: left; }
+#logo a { height: 57px; display: block;  background: url(images/logo.png) no-repeat 0 0; text-indent: -4000px; }
+
+#navigation { float: right; padding-top: 13px; }
+#navigation ul { list-style: none; list-style-position: outside; font-size: 17px; font-family: 'Coda', cursive; font-weight: 400;  }
+#navigation ul li { display: inline; padding-left: 34px; }
+#navigation ul li a { color: #d5d4d4; }
+#navigation ul li a:hover,
+#navigation ul li.active a { color: #fff; text-decoration: none; }
